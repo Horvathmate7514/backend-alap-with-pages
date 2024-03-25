@@ -1,0 +1,43 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "loxusOrak",
+    "dateExported": "2024-02-09T11:59:49.536Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a0b8e3e4-e414-48da-85fa-3d4333abfc1e",
+            "colId": "6995a560-09a3-43f1-a35b-d93ac3a21a3b",
+            "containerId": "",
+            "name": "getwatchesbymodel",
+            "url": "localhost:3000/api/watches/Montblanc",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-09T11:26:30.792Z",
+            "modified": "2024-02-09T11:28:14.891Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "29b9dcb4-2030-4403-84fa-f02369b7fece",
+            "colId": "6995a560-09a3-43f1-a35b-d93ac3a21a3b",
+            "containerId": "",
+            "name": "getwatchessorted",
+            "url": "localhost:3000/api/watches?Price[lt]=0.1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-09T11:39:42.720Z",
+            "modified": "2024-02-09T11:49:31.671Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "Price[lt]",
+                    "value": "0.1",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        }
+    ]
+}
